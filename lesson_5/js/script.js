@@ -37,25 +37,25 @@ function addZeroSymbol() {
 
 function russianWeekDaysNames() {
 	for (i = 0; i < 7; i++) {
-		if (dayOfWeek == 0) {
+		if (dayOfWeek == 1) {
 			dayOfWeek = "Понедельник";
 		};
-		if (dayOfWeek == 1) {
+		if (dayOfWeek == 2) {
 			dayOfWeek = "Вторник";
 		};
-		if (dayOfWeek == 2) {
+		if (dayOfWeek == 3) {
 			dayOfWeek = "Среда";
 		};
-		if (dayOfWeek == 3) {
+		if (dayOfWeek == 4) {
 			dayOfWeek = "Четверг";
 		};
-		if (dayOfWeek == 4) {
+		if (dayOfWeek == 5) {
 			dayOfWeek = "Пятница";
 		};
-		if (dayOfWeek == 5) {
+		if (dayOfWeek == 6) {
 			dayOfWeek = "Суббота";
 		};
-		if (dayOfWeek == 6) {
+		if (dayOfWeek == 0) {
 			dayOfWeek = "Воскресение";
 		};
 
